@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "next/link": ["./src/components/link.tsx"],
+      "next/navigation": ["./src/lib/navigation.tsx"],
+      "next/cache": ["./src/lib/revalidate.ts"],
+      "next/headers": ["./src/lib/headers.ts"],
+      "next/server": ["./src/lib/server.ts"],
+      "next/experimental/testing/server": ["./src/lib/testing-server.ts"],
+      "next": ["./src/lib/next.ts"],
+      "server-only": ["./src/test/empty-module.ts"],
+      "*.module.css": ["./src/lib/css-module-proxy.ts"],
+      "./*.module.css": ["./src/lib/css-module-proxy.ts"]
+    }
+  },
+  "include": [
+    "src/types/**/*.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

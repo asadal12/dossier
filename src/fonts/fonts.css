@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Geist";
+  src: url("/src/fonts/geist/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("/src/fonts/newsreader/Newsreader-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("/src/fonts/newsreader/Newsreader-Italic-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/src/fonts/ibm-plex-sans/IBMPlexSans-Variable.woff2") format("woff2");
+  font-weight: 100 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/src/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/src/fonts/ibm-plex-mono/IBMPlexMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/src/fonts/eb-garamond/EBGaramond-Variable.woff2") format("woff2");
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif";
+  src: url("/src/fonts/source-serif-4/SourceSerif4-Variable.woff2") format("woff2");
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/src/fonts/lora/Lora-Variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Caslon Text";
+  src: url("/src/fonts/libre-caslon-text/LibreCaslonText-Variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/src/fonts/playfair-display/PlayfairDisplay-Variable.woff2") format("woff2");
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("/src/fonts/fraunces/Fraunces-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/fonts/inter/Inter-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/src/fonts/manrope/Manrope-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/src/fonts/work-sans/WorkSans-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/src/fonts/space-grotesk/SpaceGrotesk-Variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/src/fonts/jetbrains-mono/JetBrainsMono-Variable.woff2") format("woff2");
+  font-weight: 100 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("/src/fonts/noto-sans-sc/NotoSansSC-Variable.woff2") format("woff2");
+  font-weight: 400 600;
+  font-display: swap;
+  unicode-range: U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
+}
+
+:root {
+  --typeface-geist: "Geist", Helvetica, Arial, sans-serif;
+  --typeface-newsreader: "Newsreader", Georgia, serif;
+  --typeface-plex-sans: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+  --typeface-plex-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --typeface-eb-garamond: "EB Garamond", Garamond, Georgia, serif;
+  --typeface-source-serif: "Source Serif", Georgia, serif;
+  --typeface-lora: "Lora", Georgia, serif;
+  --typeface-libre-caslon: "Libre Caslon Text", Georgia, serif;
+  --typeface-playfair: "Playfair Display", Georgia, serif;
+  --typeface-fraunces: "Fraunces", Georgia, serif;
+  --typeface-inter: "Inter", Helvetica, Arial, sans-serif;
+  --typeface-manrope: "Manrope", Helvetica, Arial, sans-serif;
+  --typeface-work-sans: "Work Sans", Helvetica, Arial, sans-serif;
+  --typeface-space-grotesk: "Space Grotesk", Helvetica, Arial, sans-serif;
+  --typeface-jetbrains-mono: "JetBrains Mono", ui-monospace, monospace;
+  --typeface-greek-serif: "EB Garamond", serif;
+  --typeface-greek-sans: "IBM Plex Sans", sans-serif;
+  --typeface-plex-sans-arabic: "IBM Plex Sans", sans-serif;
+  --typeface-plex-sans-devanagari: "IBM Plex Sans", sans-serif;
+  --typeface-plex-sans-jp: "IBM Plex Sans", sans-serif;
+  --typeface-plex-sans-kr: "IBM Plex Sans", sans-serif;
+  --typeface-noto-sans-sc: "Noto Sans SC", sans-serif;
+}
